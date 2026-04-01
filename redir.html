@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+</head>
+<script src="/assets/scripts/redir.js"></script>
+<body>
+
+<h2>WAIT!</h2>
+<p>You are trying to go on a site that i do not trust. Dont download any cheats cuz its malware. Bye</p>
+
+<button id="go">shut up</button>
+
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const site = params.get("site");
+
+    document.getElementById("go").onclick = () => {
+        if (site) {
+            window.location.href = site;
+        } else {
+            alert("Chybí parametr ?site=");
+        }
+    };
+</script>
+
+</body>
+</html>
