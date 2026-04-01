@@ -11,6 +11,9 @@ const trusted = [
     "github.com"
     "github.io"
     "filik19.github.io"
+    "google.com"
+    "microsoft.com"
+    "xbox.com"
 ];
 
 try {
