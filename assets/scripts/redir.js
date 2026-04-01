@@ -8,7 +8,7 @@ const trusted = [
     "discord.gg",
     "steamcommunity.com",
     "store.steampowered.com"
-    "github.com"
+    "http://github.com"
     "github.io"
     "filik19.github.io"
     "google.com"
